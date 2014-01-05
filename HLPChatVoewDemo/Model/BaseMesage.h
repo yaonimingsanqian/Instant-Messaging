@@ -15,8 +15,12 @@ typedef enum
 }MessageType;
 @interface BaseMesage : NSObject
 
+@property (nonatomic,assign) BOOL isIncoming;
+@property (nonatomic,copy) NSString *conversationId;
 @property (nonatomic,copy) NSString *from;
 @property (nonatomic,copy) NSString *to;
 @property (nonatomic,assign) MessageType type;
-@property (nonatomic,copy) NSData *data;
+@property (nonatomic,copy) NSDate *sendDate;
+@property (nonatomic,copy) NSString *msgContent;
+@property (nonatomic,copy) NSString *messageId;
 @end

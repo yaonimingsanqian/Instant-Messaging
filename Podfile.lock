@@ -6,6 +6,11 @@ PODS:
   - CocoaLumberjack/Core (1.6.5.1)
   - CocoaLumberjack/Extensions (1.6.5.1):
     - CocoaLumberjack/Core
+  - FMDB (2.1):
+    - FMDB/standard
+  - FMDB/common (2.1)
+  - FMDB/standard (2.1):
+    - FMDB/common
   - HPLChatViewController (0.0.3)
   - XMPPFramework (3.6.3):
     - XMPPFramework/Authentication
@@ -139,12 +144,14 @@ PODS:
     - XMPPFramework/Core
 
 DEPENDENCIES:
+  - FMDB (~> 2.1)
   - HPLChatViewController (~> 0.0.3)
   - XMPPFramework (~> 3.6.3)
 
 SPEC CHECKSUMS:
   CocoaAsyncSocket: 50a73b79fb77f0dbb57cdc5c247c8f19e9cb3b33
   CocoaLumberjack: 17803afbade3126a377d32b8d23367264b44ced6
+  FMDB: 3fd5aaf632ca4ed39e3f101e0398504e6d5b0918
   HPLChatViewController: d05c51e39c1d780de9733a7fec53b2bbbe53e2b3
   XMPPFramework: 953d52a85c1d23564c163c9c62b882f6bdf005a2
 

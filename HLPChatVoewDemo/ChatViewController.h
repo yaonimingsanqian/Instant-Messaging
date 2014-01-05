@@ -9,10 +9,14 @@
 #import <UIKit/UIKit.h>
 #import "HPLChatTableView.h"
 #import "ChatViewCompent.h"
+#import "Conversation.h"
+#import "CommonData.h"
 
 
-@interface MainViewController : UIViewController<HPLChatTableViewDataSource>
+@interface ChatViewController : UIViewController<HPLChatTableViewDataSource,ChatDelegate>
 {
     ChatViewCompent *chatViewCompent;
+    Conversation *conversation;
+    NSMutableArray *messageArray;
 }
 @end

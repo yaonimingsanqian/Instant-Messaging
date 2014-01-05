@@ -11,4 +11,28 @@
 
 @implementation Conversation
 
+- (id)init
+{
+    self = [super init];
+    if(self)
+    {
+        msgSaveHelper = [[MsgSaveHelper alloc]init];
+    }
+    return self;
+}
+- (void)sendMessage:(TextMessage *)message
+{
+    
+}
+- (void)saveMsg:(BaseMesage *)message
+{
+    [msgSaveHelper createDataBase:kMsgTableName];
+    [msgSaveHelper saveMsg:message];
+}
+- (NSArray*)loadHistoryMsg
+{
+    NSArray *msgs = [msgSaveHelper loadHistoryMsg:@"test"];
+    
+    return msgs;
+}
 @end

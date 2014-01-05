@@ -21,7 +21,8 @@
 }
 - (void)createInputFrame
 {
-    inputCompent = [[InputCompent alloc]initWithFrame:kInputViewFrame];
+    inputCompent = [[InputCompent alloc]initWithFrame:kInputViewFrame :self];
+    inputCompent.delegate = self;
     [self addSubview:inputCompent];
 }
 - (void)listenKeyboardShowAndHide
@@ -39,6 +40,7 @@
         CGRect chatTableViewFrame = chatTableView.frame;
         chatTableViewFrame.size.height -= keyboardFrame.size.height;
         chatTableView.frame = chatTableViewFrame;
+        [chatTableView scrollToBottomAnimated:YES];
     } completion:^(BOOL finished) {
         
     }];
@@ -81,6 +83,10 @@
     [inputCompent hideKeyboard];
 }
 #pragma mark - 接口
+- (void)reloadData
+{
+    [chatTableView reloadData];
+}
 - (id)initWithFrame:(CGRect)frame delegate:(id<HPLChatTableViewDataSource>)dataSource
 {
     self = [super initWithFrame:frame];
@@ -109,4 +115,19 @@
 }
 */
 
+#pragma - mark - UITextViewDelegate
+
+-(BOOL)textView:(UITextView *)textView shouldChangeTextInRange:(NSRange)range replacementText:(NSString *)text
+
+{
+    if ([text isEqualToString:@"\n"]) {
+        
+       // [textView resignFirstResponder];
+        [self.delegate sendTextMessage:textView.text];
+        textView.text = nil;
+        return NO;
+    }
+    return YES;
+    
+}
 @end

@@ -10,5 +10,4 @@
 
 @interface TextMessage : BaseMesage
 
-@property (nonatomic,copy) NSString *msgContent;
 @end

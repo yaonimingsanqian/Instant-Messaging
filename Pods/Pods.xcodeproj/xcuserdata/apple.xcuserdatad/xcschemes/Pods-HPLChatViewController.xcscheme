@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "2000E07576054612937C142B"
+               BlueprintIdentifier = "FA09B4F1C6EF4A148BE6B67C"
                BuildableName = "libPods-HPLChatViewController.a"
                BlueprintName = "Pods-HPLChatViewController"
                ReferencedContainer = "container:Pods.xcodeproj">

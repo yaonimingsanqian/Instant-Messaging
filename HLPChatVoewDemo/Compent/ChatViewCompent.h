@@ -11,11 +11,18 @@
 #import "HPLChatTableView.h"
 #import "InputCompent.h"
 
-@interface ChatViewCompent : UIView
+@protocol ChatDelegate
+@required
+- (void)sendTextMessage :(NSString*)text;
+@end
+
+@interface ChatViewCompent : UIView<UITextViewDelegate>
 {
     @private
     HPLChatTableView *chatTableView;
     InputCompent *inputCompent;
 }
+@property (nonatomic,assign) id<ChatDelegate> delegate;
 - (id)initWithFrame :(CGRect)frame delegate:(id<HPLChatTableViewDataSource>)dataSource;
+- (void)reloadData;
 @end

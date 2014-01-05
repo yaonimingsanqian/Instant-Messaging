@@ -29,7 +29,7 @@
     inputTextView = [[UITextView alloc]initWithFrame:kInputTextFrame];
     inputTextView.returnKeyType = UIReturnKeySend;
     inputTextView.enablesReturnKeyAutomatically = YES;
-    inputTextView.delegate = self;
+    inputTextView.delegate = self.delegate;
     [self addSubview:inputTextView];
 }
 - (void)createFaceBtn
@@ -40,12 +40,12 @@
     [self addSubview:faceBtn];
 }
 #pragma mark - 接口
-- (id)initWithFrame:(CGRect)frame
+- (id)initWithFrame:(CGRect)frame :(id<UITextViewDelegate>)delegate
 {
     self = [super initWithFrame:frame];
     if (self) {
         self.backgroundColor = kInputViewColor;
-        
+        self.delegate = delegate;
         [self createSoundAndTextBtn];
         [self createInputTextView];
         [self createFaceBtn];
@@ -58,20 +58,6 @@
     [inputTextView resignFirstResponder];
 }
 
-#pragma - mark - UITextViewDelegate
-
--(BOOL)textView:(UITextView *)textView shouldChangeTextInRange:(NSRange)range replacementText:(NSString *)text
-
-{
-    if ([text isEqualToString:@"\n"]) {
-        
-        [textView resignFirstResponder];
-        
-        return NO;
-    }
-    return YES;
-    
-}
 /*
 // Only override drawRect: if you perform custom drawing.
 // An empty implementation adversely affects performance during animation.

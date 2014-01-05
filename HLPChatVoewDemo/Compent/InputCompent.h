@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 #import "Config.h"
 
-@interface InputCompent : UIView<UITextViewDelegate>
+@interface InputCompent : UIView
 {
     @private
     UIButton *soundAndTextBtn;
@@ -18,5 +18,8 @@
     UITextView *inputTextView;
     
 }
+@property (nonatomic,assign) id<UITextViewDelegate> delegate;
+
+- (id)initWithFrame:(CGRect)frame :(id<UITextViewDelegate>)delegate;
 - (void)hideKeyboard;
 @end

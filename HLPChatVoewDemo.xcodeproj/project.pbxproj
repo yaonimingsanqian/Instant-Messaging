@@ -15,7 +15,7 @@
 		184DE69A1879029100AB6093 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 184DE6991879029100AB6093 /* AppDelegate.m */; };
 		184DE69D1879029100AB6093 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 184DE69B1879029100AB6093 /* Main_iPhone.storyboard */; };
 		184DE6A01879029100AB6093 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 184DE69E1879029100AB6093 /* Main_iPad.storyboard */; };
-		184DE6A31879029100AB6093 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 184DE6A21879029100AB6093 /* MainViewController.m */; };
+		184DE6A31879029100AB6093 /* ChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 184DE6A21879029100AB6093 /* ChatViewController.m */; };
 		184DE6A51879029100AB6093 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 184DE6A41879029100AB6093 /* Images.xcassets */; };
 		184DE6AC1879029100AB6093 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 184DE6AB1879029100AB6093 /* XCTest.framework */; };
 		184DE6AD1879029100AB6093 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 184DE6891879029100AB6093 /* Foundation.framework */; };
@@ -30,6 +30,18 @@
 		18BCCBA2187968670052DBF1 /* BaseMesage.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BCCBA1187968670052DBF1 /* BaseMesage.m */; };
 		18BCCBA518796A3D0052DBF1 /* TextMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BCCBA418796A3D0052DBF1 /* TextMessage.m */; };
 		18BCCBA818796C210052DBF1 /* Conversation.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BCCBA718796C210052DBF1 /* Conversation.m */; };
+		18BCCBAB187974B60052DBF1 /* TextConversation.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BCCBAA187974B60052DBF1 /* TextConversation.m */; };
+		18BCCBAE18797E530052DBF1 /* MsgSaveHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BCCBAD18797E530052DBF1 /* MsgSaveHelper.m */; };
+		18BCCBB118798B960052DBF1 /* CommonData.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BCCBB018798B960052DBF1 /* CommonData.m */; };
+		18BCCBB418798BA40052DBF1 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BCCBB318798BA40052DBF1 /* User.m */; };
+		18BCCBB6187997470052DBF1 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 18BCCBB5187997470052DBF1 /* libsqlite3.0.dylib */; };
+		18BCCBBA1879ABD50052DBF1 /* MainPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BCCBB91879ABD50052DBF1 /* MainPageViewController.m */; };
+		18BCCBBE1879AC590052DBF1 /* MainPageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BCCBBD1879AC590052DBF1 /* MainPageCell.m */; };
+		18BCCBC11879ACAC0052DBF1 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BCCBC01879ACAC0052DBF1 /* RootViewController.m */; };
+		18BCCBC41879AD870052DBF1 /* chat.png in Resources */ = {isa = PBXBuildFile; fileRef = 18BCCBC31879AD870052DBF1 /* chat.png */; };
+		18BCCBC61879AEB00052DBF1 /* contact.png in Resources */ = {isa = PBXBuildFile; fileRef = 18BCCBC51879AEB00052DBF1 /* contact.png */; };
+		18BCCBC81879AF150052DBF1 /* search.png in Resources */ = {isa = PBXBuildFile; fileRef = 18BCCBC71879AF150052DBF1 /* search.png */; };
+		18BCCBCA1879AF660052DBF1 /* me.png in Resources */ = {isa = PBXBuildFile; fileRef = 18BCCBC91879AF660052DBF1 /* me.png */; };
 		79BD8F0E4A0D4CCD8D1100E8 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0369F31759814BD2973321DD /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -57,8 +69,8 @@
 		184DE6991879029100AB6093 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		184DE69C1879029100AB6093 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
 		184DE69F1879029100AB6093 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
-		184DE6A11879029100AB6093 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
-		184DE6A21879029100AB6093 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		184DE6A11879029100AB6093 /* ChatViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ChatViewController.h; path = ../ChatViewController.h; sourceTree = "<group>"; };
+		184DE6A21879029100AB6093 /* ChatViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ChatViewController.m; path = ../ChatViewController.m; sourceTree = "<group>"; };
 		184DE6A41879029100AB6093 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		184DE6AA1879029100AB6093 /* HLPChatVoewDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HLPChatVoewDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		184DE6AB1879029100AB6093 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -79,6 +91,25 @@
 		18BCCBA418796A3D0052DBF1 /* TextMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextMessage.m; sourceTree = "<group>"; };
 		18BCCBA618796C210052DBF1 /* Conversation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Conversation.h; sourceTree = "<group>"; };
 		18BCCBA718796C210052DBF1 /* Conversation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Conversation.m; sourceTree = "<group>"; };
+		18BCCBA9187974B60052DBF1 /* TextConversation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextConversation.h; sourceTree = "<group>"; };
+		18BCCBAA187974B60052DBF1 /* TextConversation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextConversation.m; sourceTree = "<group>"; };
+		18BCCBAC18797E530052DBF1 /* MsgSaveHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MsgSaveHelper.h; sourceTree = "<group>"; };
+		18BCCBAD18797E530052DBF1 /* MsgSaveHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MsgSaveHelper.m; sourceTree = "<group>"; };
+		18BCCBAF18798B960052DBF1 /* CommonData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonData.h; sourceTree = "<group>"; };
+		18BCCBB018798B960052DBF1 /* CommonData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonData.m; sourceTree = "<group>"; };
+		18BCCBB218798BA40052DBF1 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		18BCCBB318798BA40052DBF1 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		18BCCBB5187997470052DBF1 /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		18BCCBB81879ABD50052DBF1 /* MainPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainPageViewController.h; sourceTree = "<group>"; };
+		18BCCBB91879ABD50052DBF1 /* MainPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainPageViewController.m; sourceTree = "<group>"; };
+		18BCCBBC1879AC590052DBF1 /* MainPageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainPageCell.h; sourceTree = "<group>"; };
+		18BCCBBD1879AC590052DBF1 /* MainPageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainPageCell.m; sourceTree = "<group>"; };
+		18BCCBBF1879ACAC0052DBF1 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		18BCCBC01879ACAC0052DBF1 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		18BCCBC31879AD870052DBF1 /* chat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chat.png; sourceTree = "<group>"; };
+		18BCCBC51879AEB00052DBF1 /* contact.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = contact.png; sourceTree = "<group>"; };
+		18BCCBC71879AF150052DBF1 /* search.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = search.png; sourceTree = "<group>"; };
+		18BCCBC91879AF660052DBF1 /* me.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = me.png; sourceTree = "<group>"; };
 		70E1DB14D61840E6B6B4D3B3 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -87,6 +118,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18BCCBB6187997470052DBF1 /* libsqlite3.0.dylib in Frameworks */,
 				184DE68C1879029100AB6093 /* CoreGraphics.framework in Frameworks */,
 				184DE68E1879029100AB6093 /* UIKit.framework in Frameworks */,
 				184DE68A1879029100AB6093 /* Foundation.framework in Frameworks */,
@@ -130,6 +162,7 @@
 		184DE6881879029100AB6093 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				18BCCBB5187997470052DBF1 /* libsqlite3.0.dylib */,
 				184DE6891879029100AB6093 /* Foundation.framework */,
 				184DE68B1879029100AB6093 /* CoreGraphics.framework */,
 				184DE68D1879029100AB6093 /* UIKit.framework */,
@@ -142,6 +175,8 @@
 		184DE68F1879029100AB6093 /* HLPChatVoewDemo */ = {
 			isa = PBXGroup;
 			children = (
+				18BCCBBB1879AC1B0052DBF1 /* Views */,
+				18BCCBB71879ABAC0052DBF1 /* Controllers */,
 				18BCCB9F1879684D0052DBF1 /* Model */,
 				18BCCB9118794C590052DBF1 /* images */,
 				18BCCB8D187947490052DBF1 /* Compent */,
@@ -149,8 +184,6 @@
 				184DE6991879029100AB6093 /* AppDelegate.m */,
 				184DE69B1879029100AB6093 /* Main_iPhone.storyboard */,
 				184DE69E1879029100AB6093 /* Main_iPad.storyboard */,
-				184DE6A11879029100AB6093 /* MainViewController.h */,
-				184DE6A21879029100AB6093 /* MainViewController.m */,
 				184DE6A41879029100AB6093 /* Images.xcassets */,
 				184DE6901879029100AB6093 /* Supporting Files */,
 			);
@@ -201,6 +234,7 @@
 		18BCCB9118794C590052DBF1 /* images */ = {
 			isa = PBXGroup;
 			children = (
+				18BCCBC21879AD7C0052DBF1 /* toolBar */,
 				18BCCB9218794C750052DBF1 /* Input */,
 			);
 			path = images;
@@ -225,8 +259,49 @@
 				18BCCBA418796A3D0052DBF1 /* TextMessage.m */,
 				18BCCBA618796C210052DBF1 /* Conversation.h */,
 				18BCCBA718796C210052DBF1 /* Conversation.m */,
+				18BCCBA9187974B60052DBF1 /* TextConversation.h */,
+				18BCCBAA187974B60052DBF1 /* TextConversation.m */,
+				18BCCBAC18797E530052DBF1 /* MsgSaveHelper.h */,
+				18BCCBAD18797E530052DBF1 /* MsgSaveHelper.m */,
+				18BCCBAF18798B960052DBF1 /* CommonData.h */,
+				18BCCBB018798B960052DBF1 /* CommonData.m */,
+				18BCCBB218798BA40052DBF1 /* User.h */,
+				18BCCBB318798BA40052DBF1 /* User.m */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		18BCCBB71879ABAC0052DBF1 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				184DE6A11879029100AB6093 /* ChatViewController.h */,
+				184DE6A21879029100AB6093 /* ChatViewController.m */,
+				18BCCBB81879ABD50052DBF1 /* MainPageViewController.h */,
+				18BCCBB91879ABD50052DBF1 /* MainPageViewController.m */,
+				18BCCBBF1879ACAC0052DBF1 /* RootViewController.h */,
+				18BCCBC01879ACAC0052DBF1 /* RootViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		18BCCBBB1879AC1B0052DBF1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				18BCCBBC1879AC590052DBF1 /* MainPageCell.h */,
+				18BCCBBD1879AC590052DBF1 /* MainPageCell.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		18BCCBC21879AD7C0052DBF1 /* toolBar */ = {
+			isa = PBXGroup;
+			children = (
+				18BCCBC91879AF660052DBF1 /* me.png */,
+				18BCCBC71879AF150052DBF1 /* search.png */,
+				18BCCBC51879AEB00052DBF1 /* contact.png */,
+				18BCCBC31879AD870052DBF1 /* chat.png */,
+			);
+			path = toolBar;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -310,8 +385,12 @@
 				184DE6A01879029100AB6093 /* Main_iPad.storyboard in Resources */,
 				184DE6A51879029100AB6093 /* Images.xcassets in Resources */,
 				18BCCB9618794F600052DBF1 /* face.png in Resources */,
+				18BCCBC41879AD870052DBF1 /* chat.png in Resources */,
+				18BCCBCA1879AF660052DBF1 /* me.png in Resources */,
 				184DE69D1879029100AB6093 /* Main_iPhone.storyboard in Resources */,
+				18BCCBC81879AF150052DBF1 /* search.png in Resources */,
 				184DE6941879029100AB6093 /* InfoPlist.strings in Resources */,
+				18BCCBC61879AEB00052DBF1 /* contact.png in Resources */,
 				18BCCB98187951CA0052DBF1 /* more.png in Resources */,
 				18BCCB9418794C8B0052DBF1 /* sound.png in Resources */,
 			);
@@ -366,13 +445,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				18BCCBA2187968670052DBF1 /* BaseMesage.m in Sources */,
-				184DE6A31879029100AB6093 /* MainViewController.m in Sources */,
+				18BCCBBE1879AC590052DBF1 /* MainPageCell.m in Sources */,
+				18BCCBB118798B960052DBF1 /* CommonData.m in Sources */,
+				184DE6A31879029100AB6093 /* ChatViewController.m in Sources */,
+				18BCCBAE18797E530052DBF1 /* MsgSaveHelper.m in Sources */,
 				184DE69A1879029100AB6093 /* AppDelegate.m in Sources */,
 				184DE6961879029100AB6093 /* main.m in Sources */,
+				18BCCBBA1879ABD50052DBF1 /* MainPageViewController.m in Sources */,
 				18BCCBA818796C210052DBF1 /* Conversation.m in Sources */,
+				18BCCBAB187974B60052DBF1 /* TextConversation.m in Sources */,
+				18BCCBB418798BA40052DBF1 /* User.m in Sources */,
 				18BCCBA518796A3D0052DBF1 /* TextMessage.m in Sources */,
 				18BCCB9B187953630052DBF1 /* ChatViewCompent.m in Sources */,
 				18BCCB90187947630052DBF1 /* InputCompent.m in Sources */,
+				18BCCBC11879ACAC0052DBF1 /* RootViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

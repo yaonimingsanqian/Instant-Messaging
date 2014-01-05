@@ -14,6 +14,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>Pods-FMDB.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-HPLChatViewController.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -32,27 +37,32 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>07F0D71091FC44B48481F714</key>
+		<key>891BAE356F8E4027887ED52E</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>2000E07576054612937C142B</key>
+		<key>96384B335E734B798E99FACD</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>8845035F5FA34133BDE0BE8B</key>
+		<key>A8014BFB47404AD5ADBD2713</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>EB6DC93F6CDE4093B23EA567</key>
+		<key>D81D38715948432A9D652119</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>F079D150E57E45DCBDF82AEA</key>
+		<key>E0F0A4DADDCC4BEABF9F5085</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FA09B4F1C6EF4A148BE6B67C</key>
 		<dict>
 			<key>primary</key>
 			<true/>

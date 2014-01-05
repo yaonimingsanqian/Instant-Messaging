@@ -21,5 +21,8 @@
 #define kFaceBtnBgImage @"face.png"
 #define kMoreBtnBgImage @"more.png"
 
+#pragma mark - 数据库操作
+#define DATABASE_PATH(useraccount) [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES)[0]stringByAppendingFormat:@"/%@weChat.sqlite",useraccount]
+#define kMsgTableName @"msgTable"
 
 #endif

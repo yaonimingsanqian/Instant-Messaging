@@ -132,11 +132,8 @@
                 currentSection = [[NSMutableArray alloc] init];
                 [self.chatSection addObject:currentSection];
             }
-            if([data.date timeIntervalSinceDate:last] < self.groupInterval || !lastData)
-            {
-                 [currentSection addObject:data];
-                 lastData = data;
-            }
+            [currentSection addObject:data];
+            lastData = data;
 //
 //            if([data.date timeIntervalSinceDate:last] < self.groupInterval || !lastData || data.messageStatus != lastData.messageStatus || data.type != lastData.type) {
 //                [currentSection addObject:data];
@@ -152,10 +149,10 @@
     
     [super reloadData];
     [self setNeedsDisplay];
-
-    if(self.scrollOnActivity) {
-        [self scrollToBottomAnimated:YES];
-    }
+    [self scrollToBottomAnimated:YES];
+//    if(self.scrollOnActivity) {
+//        [self scrollToBottomAnimated:YES];
+//    }
 }
 
 -(void)scrollToBottomAnimated:(BOOL)animated {
