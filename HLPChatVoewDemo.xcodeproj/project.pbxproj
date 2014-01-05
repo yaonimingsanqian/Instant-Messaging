@@ -1,0 +1,489 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		184DE68A1879029100AB6093 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 184DE6891879029100AB6093 /* Foundation.framework */; };
+		184DE68C1879029100AB6093 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 184DE68B1879029100AB6093 /* CoreGraphics.framework */; };
+		184DE68E1879029100AB6093 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 184DE68D1879029100AB6093 /* UIKit.framework */; };
+		184DE6941879029100AB6093 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 184DE6921879029100AB6093 /* InfoPlist.strings */; };
+		184DE6961879029100AB6093 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 184DE6951879029100AB6093 /* main.m */; };
+		184DE69A1879029100AB6093 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 184DE6991879029100AB6093 /* AppDelegate.m */; };
+		184DE69D1879029100AB6093 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 184DE69B1879029100AB6093 /* Main_iPhone.storyboard */; };
+		184DE6A01879029100AB6093 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 184DE69E1879029100AB6093 /* Main_iPad.storyboard */; };
+		184DE6A31879029100AB6093 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 184DE6A21879029100AB6093 /* ViewController.m */; };
+		184DE6A51879029100AB6093 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 184DE6A41879029100AB6093 /* Images.xcassets */; };
+		184DE6AC1879029100AB6093 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 184DE6AB1879029100AB6093 /* XCTest.framework */; };
+		184DE6AD1879029100AB6093 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 184DE6891879029100AB6093 /* Foundation.framework */; };
+		184DE6AE1879029100AB6093 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 184DE68D1879029100AB6093 /* UIKit.framework */; };
+		184DE6B61879029100AB6093 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 184DE6B41879029100AB6093 /* InfoPlist.strings */; };
+		184DE6B81879029100AB6093 /* HLPChatVoewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 184DE6B71879029100AB6093 /* HLPChatVoewDemoTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		184DE6AF1879029100AB6093 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 184DE67E1879029100AB6093 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 184DE6851879029100AB6093;
+			remoteInfo = HLPChatVoewDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		184DE6861879029100AB6093 /* HLPChatVoewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HLPChatVoewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		184DE6891879029100AB6093 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		184DE68B1879029100AB6093 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		184DE68D1879029100AB6093 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		184DE6911879029100AB6093 /* HLPChatVoewDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HLPChatVoewDemo-Info.plist"; sourceTree = "<group>"; };
+		184DE6931879029100AB6093 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		184DE6951879029100AB6093 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		184DE6971879029100AB6093 /* HLPChatVoewDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HLPChatVoewDemo-Prefix.pch"; sourceTree = "<group>"; };
+		184DE6981879029100AB6093 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		184DE6991879029100AB6093 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		184DE69C1879029100AB6093 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		184DE69F1879029100AB6093 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		184DE6A11879029100AB6093 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		184DE6A21879029100AB6093 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		184DE6A41879029100AB6093 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		184DE6AA1879029100AB6093 /* HLPChatVoewDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HLPChatVoewDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		184DE6AB1879029100AB6093 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		184DE6B31879029100AB6093 /* HLPChatVoewDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HLPChatVoewDemoTests-Info.plist"; sourceTree = "<group>"; };
+		184DE6B51879029100AB6093 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		184DE6B71879029100AB6093 /* HLPChatVoewDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HLPChatVoewDemoTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		184DE6831879029100AB6093 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				184DE68C1879029100AB6093 /* CoreGraphics.framework in Frameworks */,
+				184DE68E1879029100AB6093 /* UIKit.framework in Frameworks */,
+				184DE68A1879029100AB6093 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		184DE6A71879029100AB6093 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				184DE6AC1879029100AB6093 /* XCTest.framework in Frameworks */,
+				184DE6AE1879029100AB6093 /* UIKit.framework in Frameworks */,
+				184DE6AD1879029100AB6093 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		184DE67D1879029100AB6093 = {
+			isa = PBXGroup;
+			children = (
+				184DE68F1879029100AB6093 /* HLPChatVoewDemo */,
+				184DE6B11879029100AB6093 /* HLPChatVoewDemoTests */,
+				184DE6881879029100AB6093 /* Frameworks */,
+				184DE6871879029100AB6093 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		184DE6871879029100AB6093 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				184DE6861879029100AB6093 /* HLPChatVoewDemo.app */,
+				184DE6AA1879029100AB6093 /* HLPChatVoewDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		184DE6881879029100AB6093 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				184DE6891879029100AB6093 /* Foundation.framework */,
+				184DE68B1879029100AB6093 /* CoreGraphics.framework */,
+				184DE68D1879029100AB6093 /* UIKit.framework */,
+				184DE6AB1879029100AB6093 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		184DE68F1879029100AB6093 /* HLPChatVoewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				184DE6981879029100AB6093 /* AppDelegate.h */,
+				184DE6991879029100AB6093 /* AppDelegate.m */,
+				184DE69B1879029100AB6093 /* Main_iPhone.storyboard */,
+				184DE69E1879029100AB6093 /* Main_iPad.storyboard */,
+				184DE6A11879029100AB6093 /* ViewController.h */,
+				184DE6A21879029100AB6093 /* ViewController.m */,
+				184DE6A41879029100AB6093 /* Images.xcassets */,
+				184DE6901879029100AB6093 /* Supporting Files */,
+			);
+			path = HLPChatVoewDemo;
+			sourceTree = "<group>";
+		};
+		184DE6901879029100AB6093 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				184DE6911879029100AB6093 /* HLPChatVoewDemo-Info.plist */,
+				184DE6921879029100AB6093 /* InfoPlist.strings */,
+				184DE6951879029100AB6093 /* main.m */,
+				184DE6971879029100AB6093 /* HLPChatVoewDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		184DE6B11879029100AB6093 /* HLPChatVoewDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				184DE6B71879029100AB6093 /* HLPChatVoewDemoTests.m */,
+				184DE6B21879029100AB6093 /* Supporting Files */,
+			);
+			path = HLPChatVoewDemoTests;
+			sourceTree = "<group>";
+		};
+		184DE6B21879029100AB6093 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				184DE6B31879029100AB6093 /* HLPChatVoewDemoTests-Info.plist */,
+				184DE6B41879029100AB6093 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		184DE6851879029100AB6093 /* HLPChatVoewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 184DE6BB1879029100AB6093 /* Build configuration list for PBXNativeTarget "HLPChatVoewDemo" */;
+			buildPhases = (
+				184DE6821879029100AB6093 /* Sources */,
+				184DE6831879029100AB6093 /* Frameworks */,
+				184DE6841879029100AB6093 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HLPChatVoewDemo;
+			productName = HLPChatVoewDemo;
+			productReference = 184DE6861879029100AB6093 /* HLPChatVoewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		184DE6A91879029100AB6093 /* HLPChatVoewDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 184DE6BE1879029100AB6093 /* Build configuration list for PBXNativeTarget "HLPChatVoewDemoTests" */;
+			buildPhases = (
+				184DE6A61879029100AB6093 /* Sources */,
+				184DE6A71879029100AB6093 /* Frameworks */,
+				184DE6A81879029100AB6093 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				184DE6B01879029100AB6093 /* PBXTargetDependency */,
+			);
+			name = HLPChatVoewDemoTests;
+			productName = HLPChatVoewDemoTests;
+			productReference = 184DE6AA1879029100AB6093 /* HLPChatVoewDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		184DE67E1879029100AB6093 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = zhao;
+				TargetAttributes = {
+					184DE6A91879029100AB6093 = {
+						TestTargetID = 184DE6851879029100AB6093;
+					};
+				};
+			};
+			buildConfigurationList = 184DE6811879029100AB6093 /* Build configuration list for PBXProject "HLPChatVoewDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 184DE67D1879029100AB6093;
+			productRefGroup = 184DE6871879029100AB6093 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				184DE6851879029100AB6093 /* HLPChatVoewDemo */,
+				184DE6A91879029100AB6093 /* HLPChatVoewDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		184DE6841879029100AB6093 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				184DE6A01879029100AB6093 /* Main_iPad.storyboard in Resources */,
+				184DE6A51879029100AB6093 /* Images.xcassets in Resources */,
+				184DE69D1879029100AB6093 /* Main_iPhone.storyboard in Resources */,
+				184DE6941879029100AB6093 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		184DE6A81879029100AB6093 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				184DE6B61879029100AB6093 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		184DE6821879029100AB6093 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				184DE6A31879029100AB6093 /* ViewController.m in Sources */,
+				184DE69A1879029100AB6093 /* AppDelegate.m in Sources */,
+				184DE6961879029100AB6093 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		184DE6A61879029100AB6093 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				184DE6B81879029100AB6093 /* HLPChatVoewDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		184DE6B01879029100AB6093 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 184DE6851879029100AB6093 /* HLPChatVoewDemo */;
+			targetProxy = 184DE6AF1879029100AB6093 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		184DE6921879029100AB6093 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				184DE6931879029100AB6093 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		184DE69B1879029100AB6093 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				184DE69C1879029100AB6093 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		184DE69E1879029100AB6093 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				184DE69F1879029100AB6093 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		184DE6B41879029100AB6093 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				184DE6B51879029100AB6093 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		184DE6B91879029100AB6093 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		184DE6BA1879029100AB6093 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		184DE6BC1879029100AB6093 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HLPChatVoewDemo/HLPChatVoewDemo-Prefix.pch";
+				INFOPLIST_FILE = "HLPChatVoewDemo/HLPChatVoewDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		184DE6BD1879029100AB6093 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HLPChatVoewDemo/HLPChatVoewDemo-Prefix.pch";
+				INFOPLIST_FILE = "HLPChatVoewDemo/HLPChatVoewDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		184DE6BF1879029100AB6093 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HLPChatVoewDemo.app/HLPChatVoewDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HLPChatVoewDemo/HLPChatVoewDemo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "HLPChatVoewDemoTests/HLPChatVoewDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		184DE6C01879029100AB6093 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HLPChatVoewDemo.app/HLPChatVoewDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HLPChatVoewDemo/HLPChatVoewDemo-Prefix.pch";
+				INFOPLIST_FILE = "HLPChatVoewDemoTests/HLPChatVoewDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		184DE6811879029100AB6093 /* Build configuration list for PBXProject "HLPChatVoewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				184DE6B91879029100AB6093 /* Debug */,
+				184DE6BA1879029100AB6093 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		184DE6BB1879029100AB6093 /* Build configuration list for PBXNativeTarget "HLPChatVoewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				184DE6BC1879029100AB6093 /* Debug */,
+				184DE6BD1879029100AB6093 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		184DE6BE1879029100AB6093 /* Build configuration list for PBXNativeTarget "HLPChatVoewDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				184DE6BF1879029100AB6093 /* Debug */,
+				184DE6C01879029100AB6093 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 184DE67E1879029100AB6093 /* Project object */;
+}
