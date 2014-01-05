@@ -15,13 +15,22 @@
 		184DE69A1879029100AB6093 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 184DE6991879029100AB6093 /* AppDelegate.m */; };
 		184DE69D1879029100AB6093 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 184DE69B1879029100AB6093 /* Main_iPhone.storyboard */; };
 		184DE6A01879029100AB6093 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 184DE69E1879029100AB6093 /* Main_iPad.storyboard */; };
-		184DE6A31879029100AB6093 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 184DE6A21879029100AB6093 /* ViewController.m */; };
+		184DE6A31879029100AB6093 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 184DE6A21879029100AB6093 /* MainViewController.m */; };
 		184DE6A51879029100AB6093 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 184DE6A41879029100AB6093 /* Images.xcassets */; };
 		184DE6AC1879029100AB6093 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 184DE6AB1879029100AB6093 /* XCTest.framework */; };
 		184DE6AD1879029100AB6093 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 184DE6891879029100AB6093 /* Foundation.framework */; };
 		184DE6AE1879029100AB6093 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 184DE68D1879029100AB6093 /* UIKit.framework */; };
 		184DE6B61879029100AB6093 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 184DE6B41879029100AB6093 /* InfoPlist.strings */; };
 		184DE6B81879029100AB6093 /* HLPChatVoewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 184DE6B71879029100AB6093 /* HLPChatVoewDemoTests.m */; };
+		18BCCB90187947630052DBF1 /* InputCompent.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BCCB8F187947630052DBF1 /* InputCompent.m */; };
+		18BCCB9418794C8B0052DBF1 /* sound.png in Resources */ = {isa = PBXBuildFile; fileRef = 18BCCB9318794C8B0052DBF1 /* sound.png */; };
+		18BCCB9618794F600052DBF1 /* face.png in Resources */ = {isa = PBXBuildFile; fileRef = 18BCCB9518794F600052DBF1 /* face.png */; };
+		18BCCB98187951CA0052DBF1 /* more.png in Resources */ = {isa = PBXBuildFile; fileRef = 18BCCB97187951CA0052DBF1 /* more.png */; };
+		18BCCB9B187953630052DBF1 /* ChatViewCompent.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BCCB9A187953630052DBF1 /* ChatViewCompent.m */; };
+		18BCCBA2187968670052DBF1 /* BaseMesage.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BCCBA1187968670052DBF1 /* BaseMesage.m */; };
+		18BCCBA518796A3D0052DBF1 /* TextMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BCCBA418796A3D0052DBF1 /* TextMessage.m */; };
+		18BCCBA818796C210052DBF1 /* Conversation.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BCCBA718796C210052DBF1 /* Conversation.m */; };
+		79BD8F0E4A0D4CCD8D1100E8 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0369F31759814BD2973321DD /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +44,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0369F31759814BD2973321DD /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		184DE6861879029100AB6093 /* HLPChatVoewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HLPChatVoewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		184DE6891879029100AB6093 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		184DE68B1879029100AB6093 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -47,14 +57,29 @@
 		184DE6991879029100AB6093 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		184DE69C1879029100AB6093 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
 		184DE69F1879029100AB6093 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
-		184DE6A11879029100AB6093 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		184DE6A21879029100AB6093 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		184DE6A11879029100AB6093 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		184DE6A21879029100AB6093 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		184DE6A41879029100AB6093 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		184DE6AA1879029100AB6093 /* HLPChatVoewDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HLPChatVoewDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		184DE6AB1879029100AB6093 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		184DE6B31879029100AB6093 /* HLPChatVoewDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HLPChatVoewDemoTests-Info.plist"; sourceTree = "<group>"; };
 		184DE6B51879029100AB6093 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		184DE6B71879029100AB6093 /* HLPChatVoewDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HLPChatVoewDemoTests.m; sourceTree = "<group>"; };
+		18BCCB8C187946BE0052DBF1 /* Config.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Config.h; sourceTree = "<group>"; };
+		18BCCB8E187947630052DBF1 /* InputCompent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InputCompent.h; sourceTree = "<group>"; };
+		18BCCB8F187947630052DBF1 /* InputCompent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InputCompent.m; sourceTree = "<group>"; };
+		18BCCB9318794C8B0052DBF1 /* sound.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sound.png; sourceTree = "<group>"; };
+		18BCCB9518794F600052DBF1 /* face.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = face.png; sourceTree = "<group>"; };
+		18BCCB97187951CA0052DBF1 /* more.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = more.png; sourceTree = "<group>"; };
+		18BCCB99187953630052DBF1 /* ChatViewCompent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatViewCompent.h; sourceTree = "<group>"; };
+		18BCCB9A187953630052DBF1 /* ChatViewCompent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatViewCompent.m; sourceTree = "<group>"; };
+		18BCCBA0187968670052DBF1 /* BaseMesage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseMesage.h; sourceTree = "<group>"; };
+		18BCCBA1187968670052DBF1 /* BaseMesage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseMesage.m; sourceTree = "<group>"; };
+		18BCCBA318796A3D0052DBF1 /* TextMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextMessage.h; sourceTree = "<group>"; };
+		18BCCBA418796A3D0052DBF1 /* TextMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextMessage.m; sourceTree = "<group>"; };
+		18BCCBA618796C210052DBF1 /* Conversation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Conversation.h; sourceTree = "<group>"; };
+		18BCCBA718796C210052DBF1 /* Conversation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Conversation.m; sourceTree = "<group>"; };
+		70E1DB14D61840E6B6B4D3B3 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +90,7 @@
 				184DE68C1879029100AB6093 /* CoreGraphics.framework in Frameworks */,
 				184DE68E1879029100AB6093 /* UIKit.framework in Frameworks */,
 				184DE68A1879029100AB6093 /* Foundation.framework in Frameworks */,
+				79BD8F0E4A0D4CCD8D1100E8 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,6 +114,7 @@
 				184DE6B11879029100AB6093 /* HLPChatVoewDemoTests */,
 				184DE6881879029100AB6093 /* Frameworks */,
 				184DE6871879029100AB6093 /* Products */,
+				70E1DB14D61840E6B6B4D3B3 /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -107,6 +134,7 @@
 				184DE68B1879029100AB6093 /* CoreGraphics.framework */,
 				184DE68D1879029100AB6093 /* UIKit.framework */,
 				184DE6AB1879029100AB6093 /* XCTest.framework */,
+				0369F31759814BD2973321DD /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -114,12 +142,15 @@
 		184DE68F1879029100AB6093 /* HLPChatVoewDemo */ = {
 			isa = PBXGroup;
 			children = (
+				18BCCB9F1879684D0052DBF1 /* Model */,
+				18BCCB9118794C590052DBF1 /* images */,
+				18BCCB8D187947490052DBF1 /* Compent */,
 				184DE6981879029100AB6093 /* AppDelegate.h */,
 				184DE6991879029100AB6093 /* AppDelegate.m */,
 				184DE69B1879029100AB6093 /* Main_iPhone.storyboard */,
 				184DE69E1879029100AB6093 /* Main_iPad.storyboard */,
-				184DE6A11879029100AB6093 /* ViewController.h */,
-				184DE6A21879029100AB6093 /* ViewController.m */,
+				184DE6A11879029100AB6093 /* MainViewController.h */,
+				184DE6A21879029100AB6093 /* MainViewController.m */,
 				184DE6A41879029100AB6093 /* Images.xcassets */,
 				184DE6901879029100AB6093 /* Supporting Files */,
 			);
@@ -133,6 +164,7 @@
 				184DE6921879029100AB6093 /* InfoPlist.strings */,
 				184DE6951879029100AB6093 /* main.m */,
 				184DE6971879029100AB6093 /* HLPChatVoewDemo-Prefix.pch */,
+				18BCCB8C187946BE0052DBF1 /* Config.h */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -155,6 +187,48 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		18BCCB8D187947490052DBF1 /* Compent */ = {
+			isa = PBXGroup;
+			children = (
+				18BCCB8E187947630052DBF1 /* InputCompent.h */,
+				18BCCB8F187947630052DBF1 /* InputCompent.m */,
+				18BCCB99187953630052DBF1 /* ChatViewCompent.h */,
+				18BCCB9A187953630052DBF1 /* ChatViewCompent.m */,
+			);
+			path = Compent;
+			sourceTree = "<group>";
+		};
+		18BCCB9118794C590052DBF1 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				18BCCB9218794C750052DBF1 /* Input */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		18BCCB9218794C750052DBF1 /* Input */ = {
+			isa = PBXGroup;
+			children = (
+				18BCCB97187951CA0052DBF1 /* more.png */,
+				18BCCB9518794F600052DBF1 /* face.png */,
+				18BCCB9318794C8B0052DBF1 /* sound.png */,
+			);
+			path = Input;
+			sourceTree = "<group>";
+		};
+		18BCCB9F1879684D0052DBF1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				18BCCBA0187968670052DBF1 /* BaseMesage.h */,
+				18BCCBA1187968670052DBF1 /* BaseMesage.m */,
+				18BCCBA318796A3D0052DBF1 /* TextMessage.h */,
+				18BCCBA418796A3D0052DBF1 /* TextMessage.m */,
+				18BCCBA618796C210052DBF1 /* Conversation.h */,
+				18BCCBA718796C210052DBF1 /* Conversation.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -162,9 +236,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 184DE6BB1879029100AB6093 /* Build configuration list for PBXNativeTarget "HLPChatVoewDemo" */;
 			buildPhases = (
+				9ABE4697881C4779AE15BFA3 /* Check Pods Manifest.lock */,
 				184DE6821879029100AB6093 /* Sources */,
 				184DE6831879029100AB6093 /* Frameworks */,
 				184DE6841879029100AB6093 /* Resources */,
+				1E4E1EAC966544ACAE6F8BDC /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -233,8 +309,11 @@
 			files = (
 				184DE6A01879029100AB6093 /* Main_iPad.storyboard in Resources */,
 				184DE6A51879029100AB6093 /* Images.xcassets in Resources */,
+				18BCCB9618794F600052DBF1 /* face.png in Resources */,
 				184DE69D1879029100AB6093 /* Main_iPhone.storyboard in Resources */,
 				184DE6941879029100AB6093 /* InfoPlist.strings in Resources */,
+				18BCCB98187951CA0052DBF1 /* more.png in Resources */,
+				18BCCB9418794C8B0052DBF1 /* sound.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,14 +327,52 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1E4E1EAC966544ACAE6F8BDC /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9ABE4697881C4779AE15BFA3 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		184DE6821879029100AB6093 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				184DE6A31879029100AB6093 /* ViewController.m in Sources */,
+				18BCCBA2187968670052DBF1 /* BaseMesage.m in Sources */,
+				184DE6A31879029100AB6093 /* MainViewController.m in Sources */,
 				184DE69A1879029100AB6093 /* AppDelegate.m in Sources */,
 				184DE6961879029100AB6093 /* main.m in Sources */,
+				18BCCBA818796C210052DBF1 /* Conversation.m in Sources */,
+				18BCCBA518796A3D0052DBF1 /* TextMessage.m in Sources */,
+				18BCCB9B187953630052DBF1 /* ChatViewCompent.m in Sources */,
+				18BCCB90187947630052DBF1 /* InputCompent.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -389,6 +506,7 @@
 		};
 		184DE6BC1879029100AB6093 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70E1DB14D61840E6B6B4D3B3 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -402,6 +520,7 @@
 		};
 		184DE6BD1879029100AB6093 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70E1DB14D61840E6B6B4D3B3 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -474,6 +593,7 @@
 				184DE6BD1879029100AB6093 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		184DE6BE1879029100AB6093 /* Build configuration list for PBXNativeTarget "HLPChatVoewDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -482,6 +602,7 @@
 				184DE6C01879029100AB6093 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
