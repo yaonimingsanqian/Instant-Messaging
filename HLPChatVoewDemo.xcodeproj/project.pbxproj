@@ -12,7 +12,6 @@
 		184DE68E1879029100AB6093 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 184DE68D1879029100AB6093 /* UIKit.framework */; };
 		184DE6941879029100AB6093 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 184DE6921879029100AB6093 /* InfoPlist.strings */; };
 		184DE6961879029100AB6093 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 184DE6951879029100AB6093 /* main.m */; };
-		184DE69A1879029100AB6093 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 184DE6991879029100AB6093 /* AppDelegate.m */; };
 		184DE69D1879029100AB6093 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 184DE69B1879029100AB6093 /* Main_iPhone.storyboard */; };
 		184DE6A01879029100AB6093 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 184DE69E1879029100AB6093 /* Main_iPad.storyboard */; };
 		184DE6A31879029100AB6093 /* ChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 184DE6A21879029100AB6093 /* ChatViewController.m */; };
@@ -22,6 +21,8 @@
 		184DE6AE1879029100AB6093 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 184DE68D1879029100AB6093 /* UIKit.framework */; };
 		184DE6B61879029100AB6093 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 184DE6B41879029100AB6093 /* InfoPlist.strings */; };
 		184DE6B81879029100AB6093 /* HLPChatVoewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 184DE6B71879029100AB6093 /* HLPChatVoewDemoTests.m */; };
+		18AFA8A8187B126B00036ED8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AFA8A7187B126B00036ED8 /* AppDelegate.m */; };
+		18AFA8AB187B129F00036ED8 /* ConversationListVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AFA8AA187B129F00036ED8 /* ConversationListVC.m */; };
 		18BCCB90187947630052DBF1 /* InputCompent.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BCCB8F187947630052DBF1 /* InputCompent.m */; };
 		18BCCB9418794C8B0052DBF1 /* sound.png in Resources */ = {isa = PBXBuildFile; fileRef = 18BCCB9318794C8B0052DBF1 /* sound.png */; };
 		18BCCB9618794F600052DBF1 /* face.png in Resources */ = {isa = PBXBuildFile; fileRef = 18BCCB9518794F600052DBF1 /* face.png */; };
@@ -65,8 +66,6 @@
 		184DE6931879029100AB6093 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		184DE6951879029100AB6093 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		184DE6971879029100AB6093 /* HLPChatVoewDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HLPChatVoewDemo-Prefix.pch"; sourceTree = "<group>"; };
-		184DE6981879029100AB6093 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		184DE6991879029100AB6093 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		184DE69C1879029100AB6093 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
 		184DE69F1879029100AB6093 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
 		184DE6A11879029100AB6093 /* ChatViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ChatViewController.h; path = ../ChatViewController.h; sourceTree = "<group>"; };
@@ -77,6 +76,10 @@
 		184DE6B31879029100AB6093 /* HLPChatVoewDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HLPChatVoewDemoTests-Info.plist"; sourceTree = "<group>"; };
 		184DE6B51879029100AB6093 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		184DE6B71879029100AB6093 /* HLPChatVoewDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HLPChatVoewDemoTests.m; sourceTree = "<group>"; };
+		18AFA8A6187B126B00036ED8 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Compent/AppDelegate.h; sourceTree = "<group>"; };
+		18AFA8A7187B126B00036ED8 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Compent/AppDelegate.m; sourceTree = "<group>"; };
+		18AFA8A9187B129F00036ED8 /* ConversationListVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConversationListVC.h; sourceTree = "<group>"; };
+		18AFA8AA187B129F00036ED8 /* ConversationListVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConversationListVC.m; sourceTree = "<group>"; };
 		18BCCB8C187946BE0052DBF1 /* Config.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Config.h; sourceTree = "<group>"; };
 		18BCCB8E187947630052DBF1 /* InputCompent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InputCompent.h; sourceTree = "<group>"; };
 		18BCCB8F187947630052DBF1 /* InputCompent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InputCompent.m; sourceTree = "<group>"; };
@@ -175,13 +178,13 @@
 		184DE68F1879029100AB6093 /* HLPChatVoewDemo */ = {
 			isa = PBXGroup;
 			children = (
+				18AFA8A6187B126B00036ED8 /* AppDelegate.h */,
+				18AFA8A7187B126B00036ED8 /* AppDelegate.m */,
 				18BCCBBB1879AC1B0052DBF1 /* Views */,
 				18BCCBB71879ABAC0052DBF1 /* Controllers */,
 				18BCCB9F1879684D0052DBF1 /* Model */,
 				18BCCB9118794C590052DBF1 /* images */,
 				18BCCB8D187947490052DBF1 /* Compent */,
-				184DE6981879029100AB6093 /* AppDelegate.h */,
-				184DE6991879029100AB6093 /* AppDelegate.m */,
 				184DE69B1879029100AB6093 /* Main_iPhone.storyboard */,
 				184DE69E1879029100AB6093 /* Main_iPad.storyboard */,
 				184DE6A41879029100AB6093 /* Images.xcassets */,
@@ -274,6 +277,8 @@
 		18BCCBB71879ABAC0052DBF1 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				18AFA8A9187B129F00036ED8 /* ConversationListVC.h */,
+				18AFA8AA187B129F00036ED8 /* ConversationListVC.m */,
 				184DE6A11879029100AB6093 /* ChatViewController.h */,
 				184DE6A21879029100AB6093 /* ChatViewController.m */,
 				18BCCBB81879ABD50052DBF1 /* MainPageViewController.h */,
@@ -449,7 +454,6 @@
 				18BCCBB118798B960052DBF1 /* CommonData.m in Sources */,
 				184DE6A31879029100AB6093 /* ChatViewController.m in Sources */,
 				18BCCBAE18797E530052DBF1 /* MsgSaveHelper.m in Sources */,
-				184DE69A1879029100AB6093 /* AppDelegate.m in Sources */,
 				184DE6961879029100AB6093 /* main.m in Sources */,
 				18BCCBBA1879ABD50052DBF1 /* MainPageViewController.m in Sources */,
 				18BCCBA818796C210052DBF1 /* Conversation.m in Sources */,
@@ -459,6 +463,8 @@
 				18BCCB9B187953630052DBF1 /* ChatViewCompent.m in Sources */,
 				18BCCB90187947630052DBF1 /* InputCompent.m in Sources */,
 				18BCCBC11879ACAC0052DBF1 /* RootViewController.m in Sources */,
+				18AFA8A8187B126B00036ED8 /* AppDelegate.m in Sources */,
+				18AFA8AB187B129F00036ED8 /* ConversationListVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

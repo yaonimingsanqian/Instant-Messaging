@@ -8,51 +8,51 @@
 
 #import "AppDelegate.h"
 #import "MainPageViewController.h"
+#import "ConversationListVC.h"
 
 @implementation AppDelegate
 
+- (UIViewController*)createVCAccordingTag :(int)tag
+{
+    UIViewController *controller = nil;
+    switch (tag)
+    {
+        case 100:
+            controller = [[ConversationListVC alloc]initWithStyle:UITableViewStylePlain];
+            break;
+            
+        default:
+            controller = [[UIViewController alloc]init];
+            break;
+    }
+    return controller;
+}
+- (UINavigationController*)createTabBarItem :(NSString*)title :(NSString*)imageName :(int)tag
+{
+    UIViewController *conversationList = [self createVCAccordingTag:tag];
+    
+    conversationList.view.backgroundColor=[UIColor whiteColor];
+    conversationList.tabBarItem=[[UITabBarItem alloc]initWithTitle:title image:[UIImage imageNamed:imageName] tag:tag];
+    
+    UINavigationController *navi = [[UINavigationController alloc]initWithRootViewController:conversationList];
+    UILabel *naviTitle = [[UILabel alloc]initWithFrame:CGRectMake(140, 10, 100, 20)];
+    naviTitle.text = title;
+   // navi.navigationBar.tintColor = [UIColor blackColor];
+    [navi.navigationBar addSubview:naviTitle];
+    return navi;
+}
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     UITabBarController *tabBarController=[[UITabBarController alloc] init];
     
-    UIViewController *first=[[UIViewController alloc] init];
+    self.conversationNavi = [self createTabBarItem:@"会话" :@"chat.png" :100];
+    self.contactNavi = [self createTabBarItem:@"通讯录" :@"contact.png" :101];
+    self.searchNavi = [self createTabBarItem:@"发现" :@"search.png" :102];
+    self.meNavi = [self createTabBarItem:@"我" :@"me.png" :103];
     
-    first.view.backgroundColor=[UIColor redColor];
-    first.tabBarItem=[[UITabBarItem alloc]initWithTitle:@"会话" image:[UIImage imageNamed:@"chat.png"] tag:100];
-    
-    
-    
-    UIViewController *second=[[UIViewController alloc] init];
-    
-    second.view.backgroundColor=[UIColor blueColor];
-    
-    second.tabBarItem=[[UITabBarItem alloc]initWithTitle:@"通讯录" image:[UIImage imageNamed:@"contact.png"] tag:101];
-    
-    
-    
-    UIViewController *three=[[UIViewController alloc] init];
-    
-    three.view.backgroundColor=[UIColor blackColor];
-    
-    three.tabBarItem=[[UITabBarItem alloc]initWithTitle:@"发现" image:[UIImage imageNamed:@"search.png"] tag:102];
-    
-    UIViewController *four=[[UIViewController alloc] init];
-    
-    four.view.backgroundColor=[UIColor blackColor];
-    
-    four.tabBarItem=[[UITabBarItem alloc]initWithTitle:@"我" image:[UIImage imageNamed:@"me.png"] tag:103];;
-    
-    NSMutableArray *controllers=[[NSMutableArray alloc]initWithObjects:first,second,three,four,nil];
-    
-    
-    
+    NSMutableArray *controllers=[[NSMutableArray alloc]initWithObjects:self.conversationNavi,self.self.contactNavi,self.searchNavi,self.meNavi,nil];
     [tabBarController setViewControllers:controllers];
-    
-    
-    
     tabBarController.delegate=self;
-    
-    
     self.window = [[UIWindow alloc]initWithFrame:[[UIScreen mainScreen] bounds]];
     self.window.rootViewController = tabBarController;
     [self.window makeKeyAndVisible];
